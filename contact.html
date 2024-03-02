@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Spartan' rel='stylesheet'>
+    <title>Ecommerce Website</title>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#" id="logo"><img src="/images/logo.png" alt="logo"></a>
+        <div>
+            <ul id="nav-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a  class="active" href="contact.html">Contact</a></li>
+                <li><a class="lg-bag" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a id="cancel"><i class="fa-solid fa-xmark"></i></a>
+
+            </ul>
+
+            <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i id="bar" class="fa-solid fa-bars"></i>
+
+            </div>
+        </div>
+    </section>
+    <section id="Shophero" class="aboutHero">
+
+        <h2>#Let's_talk</h2>
+
+        <p>LEAVE A MESSAGE.We love to hear from you!</p>
+
+    </section>
+   
+<section id="contact-details"  class="section-p" >
+    <div id="details">
+<span>
+    GET IN TOUCH
+</span>
+<h1>Visit one of our agency locations or contact us today</h1>
+   <h3>Head Office</h3>
+   <ul>
+    <li>
+        <i class="fa-solid fa-map"></i>
+        <p>Glassford Street Glasgow GI IUL New York</p>
+    </li>
+    <li>
+        <i class="fa-regular fa-envelope"></i>
+        <p>contact@example.com
+        </p>
+    </li>
+    <li>
+        <i class="fa-solid fa-phone"></i>
+        <p>contact@example.com
+        </p>
+    </li>
+    <li>
+        <i class="fa-regular fa-clock"></i>
+        <p>Monday to Saturday: 9.00am to 16.pm</p>
+    </li>
+   </ul>
+
+</div>
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4939.198203184221!2d-1.2746514379978149!3d51.758653987818455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c7a3bfb703c9%3A0xd2780f2b57a16882!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2s!4v1708966618863!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+<section id="contact-form" >
+    <form id="cform" autocomplete="on">
+    <span>Leave A MESSAGE</span>
+    <h1>We love to hear from you</h1>
+<div class="form-input">
+ <input type="name" id="name" placeholder=" Your Name " required>
+ <div class="error-msg" id="name-error"></div>
+</div>
+<div class="form-input">
+  <input type="Email" id="email" placeholder=" E-mail" required>
+  <div class="error-msg" ></div>
+   </div>
+   <div class="form-input">
+    <input type="tel" id="Phone" placeholder= "Phone-number" required autocomplete="tel">
+    <div class="error-msg" id="phone-error"></div>
+     </div>
+<div class="message">
+    <textarea id="message-box" placeholder="Enter your Message" cols="30" rows="10" required></textarea>
+    <div class="error-msg" id="message-error"></div>
+</div>
+<div id="formbutton">
+    <button class="normal" id="formBtn" type="submit">Submit</button>
+    <div id="success-message">
+        <p>Your Message Successfully sent!</p>
+       </div>
+</div>
+
+   </form>
+  
+   <div id="persons">
+    <div>
+        <img src="/images/people/1.png">
+        <p><span>John Doe</span><br>Senior Marketing Manager <br>
+            Phone: 0342771717<br>
+            E-mail: abc@gmail.com
+        </p>
+    </div>
+    <div>
+        <img src="/images/people/2.png">
+        <p><span>William Smith</span><br>Senior Marketing Manager <br>
+            Phone: 0342771717<br>
+            E-mail: abc@gmail.com
+        </p>
+    </div>
+    <div>
+        <img src="/images/people/3.png">
+        <p><span>Emma Stone</span><br>Senior Marketing Manager <br>
+            Phone: 0342771717<br>
+            E-mail: abc@gmail.com
+        </p>
+    </div>
+   </div>
+  
+</section>
+   <!-- ============== newsletter================== -->
+    <section id="newsletters" class="section-m section-p">
+        <div id="text">
+            <h2>Sign Up For Newsletters</h2>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div id="form">
+            <input type="text" placeholder="your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <!-- ============ footer ================== -->
+
+    <footer class="section-p">
+        <div class="col">
+            <img class="logo " src="/images/logo.png">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>Lorem ipsum dolor sit amet consectetur Street</p>
+            <p><strong>Phone:</strong>+03 341 792 / +92 423 5366</p>
+            <p><strong>Hours:</strong>10.00-1.00 Mon-sat</p>
+
+            <div id="follow">
+                <h4>Follow Us</h4>
+                <div id="followicon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div id="install">
+                <img src="/images/app.jpg">
+                <img src="/images/play.jpg">
+            </div>
+            <p>Secured Payment gateways</p>
+            <img src="/images/pay.png">
+
+
+        </div>
+        <div id="copyright">
+            <p>© 2021 Tech2 etc HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+ 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var form = document.getElementById("cform");
+        var nameError = document.getElementById("name-error");
+        var phoneError = document.getElementById("phone-error");
+        var messageError = document.getElementById("message-error");
+        var submitBtn = document.querySelector("#formBtn");
+      
+        var success = document.querySelector("#success-message");
+        form.addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            var cname = document.getElementById("name");
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("Phone");
+          
+            var   messageBox = document.getElementById("message-box");
+
+            nameError.innerHTML = "";
+        phoneError.innerHTML = "";
+        messageError.innerHTML = "";
+
+            if (cname.value.length < 5) {
+                nameError.innerHTML = "Name should be greater than 5 characters";
+               cname.classList.add("error");
+               return
+            }
+  
+            if (phone.value.length < 10 || phone.value.length > 20) {
+              phoneError.innerHTML = "Phone number should be between 10 to 20 digits";
+             phone.classList.add("error");
+              return; 
+            }
+            
+            if ( messageBox.value.length >=  30) {
+             messageError.innerHTML = "message should not  be greater than 30 characters";
+              messageBox.classList.add("error");
+              return
+            }
+          
+            submitBtn.innerText = "submitting...";
+            submitBtn.disabled = true;
+          
+            localStorage.setItem('name', cname);
+            localStorage.setItem('email', email);
+            localStorage.setItem('email',phone);
+            localStorage.setItem('email', messageBox);
+            // If there are no errors, submit the form
+
+            setTimeout(function(){
+    
+                submitBtn.innerText = "submit";
+            submitBtn.disabled =false;
+            form.submit();
+        success.style.display="block";
+            },2000);
+     
+        
+        });
+    });
+</script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
