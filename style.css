@@ -160,7 +160,7 @@ padding-left: 22px;
 #hero{
     height:90vh;
     width:100%;
-  background-image: url("/images/hero4.png");
+  background-image: url("./images/hero4.png");
   background-position: top 25% right 0;
   background-size: cover;
   padding: 0 80px;
@@ -173,7 +173,7 @@ flex-direction: column;
     color:var(--main);
 }
 #hero button{
-    background-image: url("/images/button.png");
+    background-image: url("./images/button.png");
    cursor:pointer;
 background-repeat: no-repeat;
     background-color: transparent;
@@ -316,7 +316,7 @@ color:var(--main)
 /* ============== bannner ================= */
 
 .banner{
-background-image: url("/images/banners/b1.jpg");
+background-image: url("./images/banners/b1.jpg");
 background-size: cover;
 background-position: center;
 height:40vh;
@@ -362,7 +362,7 @@ margin-top: -20px;
 
 }
 .banner2{
-    background-image: url("/images/banners/b2.jpg");
+    background-image: url("./images/banners/b2.jpg");
     background-size: cover;
 background-position: center;
 height:50vh;
@@ -408,13 +408,13 @@ padding-left: 25px;
     border: none;
 }
 #banner2b{
-    background-image: url("/images/banners/b3.jpg");
+    background-image: url("./images/banners/b3.jpg");
 }
 #banner3container{
     padding: 10px 80px;
 }
 .banner3{
-    background-image: url("/images/banners/b4.jpg");
+    background-image: url("./images/banners/b4.jpg");
     background-size: cover;
 background-position: center;
 height:30vh;
@@ -439,10 +439,10 @@ padding-left: 25px;
     font-size: 16px;
 }
 #banner3b{
-    background-image: url("/images/banners/b5.jpg");
+    background-image: url("./images/banners/b5.jpg");
 }
 #banner3c{
-    background-image: url("/images/banners/b6.jpg");
+    background-image: url("./images/banners/b6.jpg");
 }
 /* ======================== newsletter =============== */
 
@@ -570,7 +570,7 @@ footer .col img{
 }
 /* ========================== shop ===================== */
 #Shophero{
-    background-image: url("/images/banners/b1.jpg");
+    background-image: url("./images/banners/b1.jpg");
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -662,7 +662,7 @@ line-height: 25px;
 /* =================blog page ============ */
 
 #Shophero.blogHero{
- background-image: url("/images/banners/b19.jpg");
+ background-image: url("./images/banners/b19.jpg");
 
 }
 #blog-box{
@@ -724,7 +724,7 @@ margin-right: 40px;
 /* =================== about page =============== */
 
 #Shophero.aboutHero{
-    background-image: url("/images/about/banner.png");
+    background-image: url("./images/about/banner.png");
 }
 #about{
     width:100%;
